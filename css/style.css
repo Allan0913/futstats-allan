@@ -1,0 +1,35 @@
+.avatar {
+    border-radius: .4rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.sm {
+    padding: .1rem;
+    font-size: .4rem;
+}
+
+.data {
+    display: flex;
+    align-items: flex-end;
+    gap: 2.5rem;
+}
+
+.form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.data > button{
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+
+.data:hover > button{
+    opacity: 1;
+}
+
