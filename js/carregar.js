@@ -109,6 +109,8 @@ function ItemJogador(jogador) {
         </article>
     `
 
+
+    jogadorElement.id = jogador.id
     jogadorElement.innerHTML = content
 
     document.querySelector("#jogadores").appendChild(jogadorElement)
